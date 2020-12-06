@@ -6,15 +6,10 @@
 
 
 body {
-/* 	background: #000 url(https://redirect.nhq.vn/demo/css/matrix.gif) center center repeat;
+/*  	background: #000 url(https://redirect.nhq.vn/demo/css/matrix.gif) center center repeat;
       margin: 0;
-	  padding: 0;
-    }
+	  padding: 0; */
 	
-	audio {
-		max-width: 300px;
-		max-height: 30px;
-		vertical-align: middle; */
       background-image: url(https://redirect.nhq.vn/demo/css/matrix.gif);
       background-size: cover;
       background-repeat: no-repeat;
