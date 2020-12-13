@@ -76,24 +76,24 @@
  		} else {
  			count = count + 1;
 		}
-// 		if(next_bg >= 15) {
-// 			num_bg = num_bg + 1;
-// 			if(num_bg > 10) {
-// 				num_bg = 1;
-// 			}
-// 			document.body.style.backgroundImage = "url(css/bg/" + num_bg + ".jpg)";
-// 			preLoadbg = new Image();
-// 			if(num_bg == 10) {
-// 				preLoadbg.src = "css/bg/1.jpg";
-// 			} else {
-// 				preLoadbg.src = "css/bg/" + (num_bg + 1) + ".jpg";
-// 			}
-// 			next_bg = 0;
-// 		} else {
-// 			next_bg = next_bg + 1;
-//  		}
-//  		setTimeout(timedCount, 1000);
-// 	}
+		if(next_bg >= 15) {
+			num_bg = num_bg + 1;
+			if(num_bg > 10) {
+				num_bg = 1;
+			}
+			document.body.style.backgroundImage = "url(css/bg/" + num_bg + ".jpg)";
+			preLoadbg = new Image();
+			if(num_bg == 10) {
+				preLoadbg.src = "css/bg/1.jpg";
+			} else {
+				preLoadbg.src = "css/bg/" + (num_bg + 1) + ".jpg";
+			}
+			next_bg = 0;
+		} else {
+			next_bg = next_bg + 1;
+ 		}
+ 		setTimeout(timedCount, 1000);
+	}
 	function autoLoad() {
 		var shapeTest = document.getElementById('shape');
 		if (hasClassName(shapeTest, 'cube')) {
